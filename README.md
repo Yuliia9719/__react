@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.Ініціалізація проекту з використанням npm +npm create vite@latest ваш_проект -- --template react.
+2.Створення компоненту у src/components Button.jsx. 3. Реалізація компоненту,який використовує і приймає props (text і onClick). 4. Імпортування та використання компоненту у App.jsx
