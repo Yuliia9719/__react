@@ -5,7 +5,11 @@ const App = () => {
     <div>
       <h1>Hello from React</h1>
 
-      <Button initialButtonText="Click me!" initialButtonColor="orange" />
+      <Button
+        disabled={false}
+        initialButtonText="Click me!"
+        initialButtonColor="orange"
+      />
     </div>
   );
 };
