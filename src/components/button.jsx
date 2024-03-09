@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 const Button = ({ initialButtonText, initialButtonColor, disabled }) => {
   const [buttonText, setButtonText] = useState(initialButtonText);
-  const [buttonColor, setButtonColor] = React.useState(initialButtonColor);
+  const [buttonColor, setButtonColor] = useState(initialButtonColor);
 
   const onClickHandler = () => {
     setButtonText("You clicked me!"), setButtonColor("btn-info");
