@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const Button = ({ initialButtonText, initialButtonColor, disabled }) =>
+const Button = ({ initialButtonText, initialButtonColor, disabled }) => {
   const [buttonText, setButtonText] = useState(initialButtonText);
   const [buttonColor, setButtonColor] = useState(initialButtonColor);
 
