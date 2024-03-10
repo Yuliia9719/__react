@@ -6,6 +6,7 @@ const App = () => {
   const incrementCount = () => {
     setCounter(count + 1);
   };
+
   return (
     <div>
       <h1>
