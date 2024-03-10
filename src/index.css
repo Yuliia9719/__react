@@ -7,6 +7,10 @@
 body {
   font-family: sans-serif;
   background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: cadetblue;
 }
 
 .orange {
@@ -15,4 +19,17 @@ body {
 
 .btn-info {
   background-color: yellow;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+button,
+input {
+  display: block;
+  margin-top: 15px;
+  padding: 5px 15px;
+
 }

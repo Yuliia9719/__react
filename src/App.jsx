@@ -1,11 +1,18 @@
+import { useState } from "react";
 import Button from "./components/Button.jsx";
 
 const App = () => {
+  const [count, setCounter] = useState(0);
+  const incrementCount = () => {
+    setCounter(count + 1);
+  };
   return (
     <div>
-      <h1>Hello from React</h1>
-
-      <Button min={35} max={395} />
+      <h1>
+        Count: {count}
+      </h1>
+      <input type="text" value={count} />
+      <Button onClick={incrementCount} />
     </div>
   );
 };
